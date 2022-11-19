@@ -1,10 +1,10 @@
 export const properties = {
-    courseName: 'Level 7 Animal Search',
-    endpoint: 'https://cheetah.api.jointheleague.org?q=',
-    description: 'Here is a brief description of the project.  Try to keep it to two or three sentences',
-    backendSwaggerUrl: 'https://cheetah.api.jointheleague.org/',
-    createdBy: 'Student One, Student Two, Student Three',
-    repositoryUrl: 'https://github.com/LEAGUE-Level7/Cheetah-Search'
+    courseName: 'SunriseAndSunset',
+    endpoint: '/searchLocResults?date=" + date + "&lat=" + latitude + "&lng=" + longitude',
+    description: 'Gets the sunrise and sunset based on the latitude, longitude, and date',
+    backendSwaggerUrl: 'http://localhost:5000/swagger-ui/',
+    createdBy: 'Nathan Young',
+    repositoryUrl: 'https://github.com/CookieDoughYum/SunriseAndSunset'
 };
 
 /*
