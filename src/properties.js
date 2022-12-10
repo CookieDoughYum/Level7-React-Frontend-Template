@@ -1,8 +1,8 @@
 export const properties = {
     courseName: 'SunriseAndSunset',
-    endpoint: '/searchLocResults?date=" + date + "&lat=" + latitude + "&lng=" + longitude',
+    endpoint: 'http://localhost:5000/searchLocResults?query=',
     description: 'Gets the sunrise and sunset based on the latitude, longitude, and date',
-    backendSwaggerUrl: 'http://localhost:5000/swagger-ui/',
+    backendSwaggerUrl: 'http://localhost:5000/',
     createdBy: 'Nathan Young',
     repositoryUrl: 'https://github.com/CookieDoughYum/SunriseAndSunset'
 };

@@ -4,7 +4,7 @@ import classes from './SearchResult.module.css';
 const SearchResult = (props) => {
     console.log(props);
     return (
-        <article className={classes.Result}>
+        <article className={classes.Results}>
            <h1>sunrise: {props.sunrise}</h1>
            <h2>sunset: {props.sunset}</h2>
            <h3>solarNoon: {props.solarNoon}</h3>

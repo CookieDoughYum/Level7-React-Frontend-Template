@@ -32,7 +32,7 @@ function App() {
             })
             .then(data => {
                     const results = [];
-                    data.forEach(datum => {
+                    Array.from(data).forEach(datum => {
                         results.push(datum)
                     });
                     setOutput(results);
