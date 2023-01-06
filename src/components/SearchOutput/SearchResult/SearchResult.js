@@ -2,19 +2,19 @@ import React from "react";
 import classes from './SearchResult.module.css';
 
 const SearchResult = (props) => {
-    console.log(props);
+    console.log("props",props);
     return (
         <article className={classes.Results}>
            <h1>sunrise: {props.sunrise}</h1>
-           <h2>sunset: {props.sunset}</h2>
-           <h3>solarNoon: {props.solarNoon}</h3>
-           <h4>dayLength: {props.dayLength}</h4>
-           <h5>civilTwilightBegin: {props.civilTwilightBegin}</h5>
-           <h6>civilTwilightEnd: {props.civilTwilightEnd}</h6>
-           <h7>nauticalTwilightBegin: {props.nauticalTwilightBegin}</h7>
-           <h8>nauticalTwilightEnd: {props.nauticalTwilightEnd}</h8>
-           <h9>astronomicalTwilightBegin: {props.astronomicalTwilightBegin}</h9>
-           <h10>astronomicalTwilightEnd: {props.astronomicalTwilightEnd}</h10>
+           <h1>sunset: {props.sunset}</h1>
+           <h1>solarNoon: {props.solarNoon}</h1>
+           <h1>dayLength: {props.dayLength}</h1>
+           <h1>civilTwilightBegin: {props.civilTwilightBegin}</h1>
+           <h1>civilTwilightEnd: {props.civilTwilightEnd}</h1>
+           <h1>nauticalTwilightBegin: {props.nauticalTwilightBegin}</h1>
+           <h1>nauticalTwilightEnd: {props.nauticalTwilightEnd}</h1>
+           <h1>astronomicalTwilightBegin: {props.astronomicalTwilightBegin}</h1>
+           <h1>astronomicalTwilightEnd: {props.astronomicalTwilightEnd}</h1>
         </article>
     );
 }

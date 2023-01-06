@@ -27,14 +27,13 @@ function App() {
                     setInput(term);
                     throw new Error("Not 2xx response")
                 } else {
-                    return response.json()
+                    return response.json();
                 }
             })
             .then(data => {
-                    const results = [];
-                    Array.from(data).forEach(datum => {
-                        results.push(datum)
-                    });
+            console.log(data);
+                   const results = [];
+                    results.push(data);
                     setOutput(results);
             }, (error) => {
                 console.log(error);

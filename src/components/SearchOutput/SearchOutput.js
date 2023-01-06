@@ -23,14 +23,14 @@ const SearchOutput = (props) => {
                        // key={index}
                         sunrise={results.sunrise}
                         sunset={results.sunset}
-                        solarNoon={results.solarNoon}
-                        dayLength={results.dayLength}
-                        civilTwilightBegin={results.civilTwilightBegin}
-                        civilTwilightEnd={results.civilTwilightEnd}
-                        nautucalTwilightBegin={results.nauticalTwilightBegin}
-                        nautucalTwilightEnd={results.nauticalTwilightEnd}
-                        astronomicalTwilightBegin={results.astronomicalTwilightBegin}
-                        astronomicalTwilightEnd={results.astronomicalTwilightEnd}
+                        solarNoon={results.solar_noon}
+                        dayLength={results.day_length}
+                        civilTwilightBegin={results.civil_twilight_begin}
+                        civilTwilightEnd={results.civil_twilight_end}
+                        nauticalTwilightBegin={results.nautical_twilight_begin}
+                        nauticalTwilightEnd={results.nautical_twilight_end}
+                        astronomicalTwilightBegin={results.astronomical_twilight_begin}
+                        astronomicalTwilightEnd={results.astronomical_twilight_end}
 
                     />
                 );
